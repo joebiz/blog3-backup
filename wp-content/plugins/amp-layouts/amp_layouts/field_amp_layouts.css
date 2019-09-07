@@ -1,0 +1,91 @@
+ .amp_layout{
+    display: inline-block;
+    width: 95%;
+margin: 0px 15px 100px 0px;
+}
+.amppb-layout-layout{
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display:inline-block;
+    padding: 0;
+    width: 30%;
+    margin:0px 25px 25px 0px;
+}.amppb-layout-layout .amppb-layout-wrapper{
+        padding: 0px;
+    background: #F7F7F7;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.amppb-layout-library-wrapper .amppb-layout-layout:hover .amppb-layout-title{
+    color:#000;
+
+}   
+.amppb-layout-layout .amppb-layout-wrapper .amppb-layout-screenshot{
+    background: #ffffff;
+    margin-bottom: 10px;
+}
+.amppb-layout-screenshot img{
+    display: block;
+    width: 100%;
+    height: auto;
+    cursor:pointer;
+}
+.amppb-layout-bottom{
+    position: relative;
+    margin: 10px 0px 0px 0px;
+    text-align: center}
+}
+.amppb-layout-button .button {
+    width: 50%;
+    text-align: center;
+    padding: 5px 3px;
+    height: 37px;
+    border-radius: 0;
+    background: #455A64;
+    color: #fff;
+    border: 0;
+}
+.amppb-layout-title {
+    margin: 0;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+    background: #fcfcfc;
+}
+.amppb-layout-button{
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    visibility: visible;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    background: #f6f6f6;
+    -webkit-box-shadow: -1px 0 1px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: -1px 0 1px rgba(0, 0, 0, 0.05);
+    box-shadow: -1px 0 1px rgba(0, 0, 0, 0.05);
+}
+.amppb-layout-wrapper:hover{
+    box-shadow: 0 0px 30px 0px rgba(0, 0, 0, 0.30);
+}
+.amppb-layout-layout .amppb-layout-button .button:hover{
+    background: #455A64;
+    color:#fff;
+}
+.amppb-layout-button button{
+    background: #fafafa;
+    border-color: #999;
+    color: #23282d;
+}
+.amp_layout .amppb-layout-layout:last-child{
+    margin-right:0px;
+}
+.amp_layouts_tuts{font-size: 11px;padding: 10px;line-height: 28px;}
+#redux-export-code-dl{display: none}

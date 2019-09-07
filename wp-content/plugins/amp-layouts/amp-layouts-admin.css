@@ -1,0 +1,30 @@
+#section-table-ampforwp_themes_swift_layout_head th[scope=row] {
+    display: none;
+}
+.amppb-layout-button button, .amppb-layout-button .button, .amppb-layout-button button:focus, .amppb-layout-button .button:focus, .amppb-layout-button button:hover, .amppb-layout-button .button:hover{
+    width: 48%;
+    text-align: center;
+    padding: 5px 3px;
+    height: 37px;
+    background: #455A64;
+    color: #fff;
+    border: 0;
+    margin-top: 2px;
+    border-radius: 0px;
+    cursor: pointer;
+}
+.amppb-layout-library-wrapper .amppb-layout-button .button{width:100%;height:auto;}
+.amppb-layout-library-wrapper .amppb-layout-layout{margin-bottom:30px;}
+#section-ampforwp_themes_swift_layout_head{
+    position: relative
+}
+.amp-ls-desc{
+    position: absolute;top:30px;right: 0;
+}
+.amp-ls-desc{ 
+    position: absolute;  
+    font-size: 13px;
+    top: 30px;
+    right: 0;
+    text-transform: none;
+}

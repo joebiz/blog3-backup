@@ -1,0 +1,7 @@
+
+
+# Protect the log files
+<Files  ~ "\.log$">
+Order Allow,Deny
+Deny from all
+</Files>
